@@ -1,0 +1,38 @@
+body {
+    background-color: #F6F6F6;
+    color: #070707;
+    width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 120px;
+}
+
+.header-menu li {
+    color: #828282;
+    list-style: none ;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39em;
+    letter-spacing: 0.02em;
+
+    display: inline-block;
+
+    margin: 28px 40px;
+}
+
+.header-menu a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 970px;
+    margin-left: auto;
+}

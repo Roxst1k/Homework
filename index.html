@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denis Novak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <ul>
-            <li>Home</li>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Portfolio</li>
-            <li>Contacts</li>
+    <header class="header">
+        <ul class="header-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about_me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
     </header>
     <!-- Main -->
@@ -25,7 +27,7 @@
             <img src="./img/photox940.jpg" alt="">
         </section>
         <!-- Section about me -->
-        <section>
+        <section id="about_me">
             <h2>About me</h2>
             <p>Hi, I'm Denis – UX/UI designer from Minsk.
                 I'm interested in design and everything connected with it.</p>
@@ -35,7 +37,7 @@
                 with wonderful people.</p>
         </section>
         <!-- Section skills -->
-        <section>
+        <section id="skills">
             <h2>Skills</h2>
             <p>I work in such programs as</p>
             <ul>
@@ -86,7 +88,7 @@
             </ul>
         </section>
         <!-- Section portfolio -->
-        <section>
+        <section id="portfolio">
             <h2>Portfolio</h2>
                 <ul>
                     <li>
@@ -102,7 +104,7 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer id="contacts">
         <h2>Contacts</h2>
         <p>Want to know more or just chat? You are welcome!</p>
         <button type="button">Send message</button>
@@ -110,7 +112,8 @@
         <img src="./img/instagram.svg" alt="">
         <img src="./img/behance.svg" alt="">
         <img src="./img/dribbble.svg" alt="">
-        <p></p>
+        <p>Like me on
+            LinkedIn, Instagram, Behance, Dribble</p>
     </footer>
 </body>
 </html>
