@@ -11,109 +11,143 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <ul class="header-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about_me">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+        <ul class="list">
+            <li class="list-nav"><a href="#">Home</a></li>
+            <li class="list-nav"><a href="#about_me">About me</a></li>
+            <li class="list-nav"><a href="#skills">Skills</a></li>
+            <li class="list-nav"><a href="#portfolio">Portfolio</a></li>
+            <li class="list-nav"><a href="#contacts">Contacts</a></li>
         </ul>
     </header>
+    <div class="line"></div>
     <!-- Main -->
     <main>    
         <!-- Section first screen -->
-        <section>
+        <section class="first-screen">
             <h1>Denis Novik</h1>
             <img src="./img/photox940.jpg" alt="">
         </section>
         <!-- Section about me -->
-        <section id="about_me">
-            <h2>About me</h2>
-            <p>Hi, I'm Denis – UX/UI designer from Minsk.
-                I'm interested in design and everything connected with it.</p>
-            <p>I'm studying at courses "Web and mobile design 
-                interfaces" in IT-Academy.</p>
-            <p>Ready to implement excellent projects
-                with wonderful people.</p>
-        </section>
+        <div class="wrapper_about_me">
+            <section id="about_me" class="about_me">
+                <h2>About me</h2>
+                <div>
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk.
+                    I'm interested in design and everything connected with it.</p>
+                    <p>I'm studying at courses "Web and mobile design
+                    interfaces" in IT-Academy.</p>
+                    <p>Ready to implement excellent projects
+                    with wonderful people.</p>
+                </div>
+            </section>
+        </div>
+
         <!-- Section skills -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>I work in such programs as</p>
-            <ul>
-                <li>
-                    <img src="./img/Ps.svg" alt="">
-                    <p>Adobe Photoshop</p>
-                    <div>
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon-none.svg" alt="">
-                        <img src="./img/star-icon-none.svg" alt="">
-                        <img src="./img/star-icon-none.svg" alt="">
-                    </div>
-                </li>
-                <li>
-                    <img src="./img/Ai.svg" alt="">
-                    <p>Adobe Illustrator</p>
-                    <div>
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon-none.svg" alt="">
-                        <img src="./img/star-icon-none.svg" alt="">
-                    </div>
-                </li>
-                <li>
-                    <img src="./img/Ae.svg" alt="">
-                    <p>Adobe After Effects</p>
-                    <div>
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon-none.svg" alt="">
-                    </div>
-                </li>
-                <li>
-                    <img src="./img/Figma.svg" alt="">
-                    <p>Figma</p>
-                    <div>
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                        <img src="./img/star-icon.svg" alt="">
-                    </div>
-                </li>
-            </ul>
+        <section id="skills" class="skills">
+            <div class="skills_content">
+                <h2>Skills</h2>
+                <p>I work in such programs as</p>
+            </div>
+            <div class="skills_program">
+                <ul>
+                    <li class="skills_program_list">
+                        <div class="skills_program_item">
+                            <img src="./img/Ps.svg" width="80px" height="80px" alt="">
+                            <p>Adobe Photoshop</p>
+                        </div>
+                        <div class="skill_star">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon-none.svg" alt="">
+                            <img src="./img/star-icon-none.svg" alt="">
+                            <img src="./img/star-icon-none.svg" alt="">
+                        </div>
+                    </li>
+                    <li class="skills_program_list">
+                        <div class="skills_program_item">
+                            <img src="./img/Ai.svg" width="80px" height="80px" alt="">
+                            <p>Adobe Illustrator</p>
+                        </div>
+                        <div class="skill_star">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon-none.svg" alt="">
+                            <img src="./img/star-icon-none.svg" alt="">
+                        </div>
+                    </li>
+                    <li class="skills_program_list">
+                        <div class="skills_program_item">
+                            <img src="./img/Ae.svg" width="80px" height="80px" alt="">
+                            <p>Adobe After Effects</p>
+                        </div>
+                        <div class="skill_star">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon-none.svg" alt="">
+                        </div>
+                    </li>
+                    <li class="skills_program_list">
+                        <div class="skills_program_item" >
+                            <img src="./img/Figma.svg" width="53px" height="80px" alt="">
+                            <p>Figma</p>
+                        </div>
+                        <div class="skill_star">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                            <img src="./img/star-icon.svg" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- Section portfolio -->
-        <section id="portfolio">
-            <h2>Portfolio</h2>
+        <div class="wrapper_portfolio">
+        <section id="portfolio" class="portfolio">
+                <h2>Portfolio</h2>
                 <ul>
                     <li>
                         <img src="./img/Fashion-Store.jpg" alt="">
-                        <a href="">Online fashion store - Homepage</a></li>
+                        <div class="portfolio_link">
+                            <a href="">Online fashion store - Homepage</a>
+                        </div>
+                    </li>
                     <li>
                         <img src="./img/reebok_web.jpg" alt="">
-                        <a href="">Reebok Store - Concept</a></li>
+                        <div class="portfolio_link">
+                            <a href="">Reebok Store - Concept</a>
+                        </div>
+                    </li>
                     <li>
                         <img src="./img/braun-landing.jpg" alt="">
-                        <a href="">Braun Landing Page - Concept</a></li>
+                        <div class="portfolio_link">
+                            <a href="">Braun Landing Page - Concept</a>
+                        </div>
+                    </li>
                 </ul>
         </section>
+        </div>
     </main>
     <!-- Footer -->
-    <footer id="contacts">
+    <footer id="contacts" class="footer">
         <h2>Contacts</h2>
         <p>Want to know more or just chat? You are welcome!</p>
-        <button type="button">Send message</button>
-        <a href=""><img src="./img/linkedin.svg" alt=""></a>
-        <a href=""><img src="./img/instagram.svg" alt=""></a>
-        <a href=""><img src="./img/behance.svg" alt=""></a>
-        <a href=""><img src="./img/dribbble.svg" alt=""></a>
-        <p>Like me on
-            LinkedIn, Instagram, Behance, Dribble</p>
+        <div class="social_media">
+            <div class="button">
+                <button type="button">Send message</button>
+            </div>
+            <div class="social_media_item">
+                <a href=""><img src="./img/linkedin.svg" alt=""></a>
+                <a href=""><img src="./img/instagram.svg" alt=""></a>
+                <a href=""><img src="./img/behance.svg" alt=""></a>
+                <a href=""><img src="./img/dribbble.svg" alt=""></a>
+            </div>
+        </div>
+        <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
     </footer>
 </body>
 </html>
